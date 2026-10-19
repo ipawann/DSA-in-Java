@@ -3,7 +3,7 @@ package Sorting;
 public class mergeSort {
     public static void main(String[] args){
         int arr[] = { 69,23,45,-1,-20,-30,0,9,99};
-        System.out.print("Array before sorting: ");
+        System.out.println("Array before sorting: ");
         for(int i = 0;i< arr.length;i++){
             System.out.print(arr[i] + " ");
         }
